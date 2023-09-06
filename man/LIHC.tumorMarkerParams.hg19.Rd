@@ -2,7 +2,7 @@
 % Please edit documentation in R/data-LIHC.tumorMarkerParams.R
 \name{LIHC.tumorMarkerParams.hg19}
 \alias{LIHC.tumorMarkerParams.hg19}
-\title{Methylation patterns of LIHC markers}
+\title{Parameters of LIHC markers}
 \format{
 A data frame containing the LIHC-specific marker positions aligned
 to the HG19 reference genome and the beta distribution shape parameters of
@@ -25,8 +25,8 @@ data("LIHC.tumorMarkerParams.hg19")
 A data frame with 20000 rows and 8 variables
 }
 \description{
-Methylation patterns of markers associated with liver hepatocellular
-carcinoma (LIHC)
+The shape parameters of beta distribution characterizing methylation markers 
+associated with liver hepatocellular carcinoma (LIHC)
 }
 \author{
 Ran Hu \email{huran@ucla.edu}

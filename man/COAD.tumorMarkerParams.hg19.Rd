@@ -2,7 +2,7 @@
 % Please edit documentation in R/data-COAD.tumorMarkerParams.R
 \name{COAD.tumorMarkerParams.hg19}
 \alias{COAD.tumorMarkerParams.hg19}
-\title{Methylation patterns of COAD markers}
+\title{Parameters of COAD markers}
 \format{
 A data frame containing the COAD-specific marker positions aligned
 to the HG19 reference genome and the beta distribution shape parameters of
@@ -25,7 +25,8 @@ data("COAD.tumorMarkerParams.hg19")
 A data frame with 20000 rows and 8 variables
 }
 \description{
-Methylation patterns of markers associated with colon adenocarcinoma (COAD)
+The shape parameters of beta distribution characterizing methylation markers 
+associated with colon adenocarcinoma (COAD)
 }
 \author{
 Ran Hu \email{huran@ucla.edu}

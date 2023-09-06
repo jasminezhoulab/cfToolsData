@@ -1,6 +1,7 @@
-#' Methylation patterns of lung cancer markers
+#' Parameters of lung cancer markers
 #'
-#' Methylation patterns of markers associated with lung cancer
+#' The shape parameters of beta distribution characterizing methylation markers 
+#' associated with lung cancer
 #'
 #' @name LUNG.tumorMarkerParams.hg19
 #'

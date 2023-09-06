@@ -1,6 +1,7 @@
-#' Methylation patterns of STAD markers
+#' Parameters of STAD markers
 #'
-#' Methylation patterns of markers associated with stomach adenocarcinoma (STAD)
+#' The shape parameters of beta distribution characterizing methylation markers 
+#' associated with stomach adenocarcinoma (STAD)
 #'
 #' @name STAD.tumorMarkerParams.hg19
 #'

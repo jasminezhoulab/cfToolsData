@@ -1,7 +1,7 @@
-#' Methylation patterns of LIHC markers
+#' Parameters of LIHC markers
 #'
-#' Methylation patterns of markers associated with liver hepatocellular
-#' carcinoma (LIHC)
+#' The shape parameters of beta distribution characterizing methylation markers 
+#' associated with liver hepatocellular carcinoma (LIHC)
 #'
 #' @name LIHC.tumorMarkerParams.hg19
 #'

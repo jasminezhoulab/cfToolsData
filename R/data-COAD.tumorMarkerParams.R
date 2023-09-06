@@ -1,6 +1,7 @@
-#' Methylation patterns of COAD markers
+#' Parameters of COAD markers
 #'
-#' Methylation patterns of markers associated with colon adenocarcinoma (COAD)
+#' The shape parameters of beta distribution characterizing methylation markers 
+#' associated with colon adenocarcinoma (COAD)
 #'
 #' @name COAD.tumorMarkerParams.hg19
 #'

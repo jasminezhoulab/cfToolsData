@@ -2,7 +2,7 @@
 % Please edit documentation in R/data-LUNG.tumorMarkerParams.R
 \name{LUNG.tumorMarkerParams.hg19}
 \alias{LUNG.tumorMarkerParams.hg19}
-\title{Methylation patterns of lung cancer markers}
+\title{Parameters of lung cancer markers}
 \format{
 A data frame containing the lung cancer-specific marker positions
 aligned to the HG19 reference genome and the beta distribution shape
@@ -25,7 +25,8 @@ data("LUNG.tumorMarkerParams.hg19")
 A data frame with 20000 rows and 8 variables
 }
 \description{
-Methylation patterns of markers associated with lung cancer
+The shape parameters of beta distribution characterizing methylation markers 
+associated with lung cancer
 }
 \author{
 Ran Hu \email{huran@ucla.edu}

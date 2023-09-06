@@ -2,7 +2,7 @@
 % Please edit documentation in R/data-tissueMarkerParams.R
 \name{tissueMarkerParams.hg19}
 \alias{tissueMarkerParams.hg19}
-\title{Methylation patterns of tissue markers}
+\title{Parameters of tissue markers}
 \format{
 A data frame containing the tissue-specific marker positions aligned
 to the HG19 reference genome and the beta distribution shape parameters of
@@ -49,7 +49,8 @@ data("tissueMarkerParams.hg19")
 A data frame with 15044 rows and 32 variables
 }
 \description{
-Methylation patterns of markers specific to 29 primary human tissue types
+The shape parameters of beta distribution characterizing methylation markers 
+specific to 29 primary human tissue types
 }
 \author{
 Ran Hu \email{huran@ucla.edu}

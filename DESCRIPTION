@@ -21,10 +21,11 @@ Author: c(
 Maintainer: Ran Hu <huran@ucla.edu>
 Description: The cfToolsData package supplies the data for the cfTools package. 
     It contains two pre-trained deep neural network (DNN) models for the cfSort 
-    function. Additionally, it includes methylation patterns of markers 
-    associated with four tumor types for the CancerDetector function, as well as
-    methylation patterns of markers specific to 29 primary human tissue types 
-    for the cfDeconvolve function.
+    function. Additionally, it includes the shape parameters of beta 
+    distribution characterizing methylation markers associated with four tumor 
+    types for the CancerDetector function, as well as the parameters 
+    characterizing methylation markers specific to 29 primary human tissue 
+    types for the cfDeconvolve function.
 License: file LICENSE
 LazyData: False
 Encoding: UTF-8

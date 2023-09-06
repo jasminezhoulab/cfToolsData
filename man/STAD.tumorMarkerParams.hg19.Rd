@@ -2,7 +2,7 @@
 % Please edit documentation in R/data-STAD.tumorMarkerParams.R
 \name{STAD.tumorMarkerParams.hg19}
 \alias{STAD.tumorMarkerParams.hg19}
-\title{Methylation patterns of STAD markers}
+\title{Parameters of STAD markers}
 \format{
 A data frame containing the STAD-specific marker positions
 aligned to the HG19 reference genome and the beta distribution shape
@@ -25,7 +25,8 @@ data("STAD.tumorMarkerParams.hg19")
 A data frame with 20000 rows and 8 variables
 }
 \description{
-Methylation patterns of markers associated with stomach adenocarcinoma (STAD)
+The shape parameters of beta distribution characterizing methylation markers 
+associated with stomach adenocarcinoma (STAD)
 }
 \author{
 Ran Hu \email{huran@ucla.edu}

@@ -1,6 +1,7 @@
-#' Methylation patterns of tissue markers
+#' Parameters of tissue markers
 #'
-#' Methylation patterns of markers specific to 29 primary human tissue types
+#' The shape parameters of beta distribution characterizing methylation markers 
+#' specific to 29 primary human tissue types
 #'
 #' @name tissueMarkerParams.hg19
 #'
