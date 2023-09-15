@@ -1,5 +1,5 @@
 Package: cfToolsData
-Title: Data for the cfTools package
+Title: ExperimentHub data for the cfTools package
 Version: 0.99.0
 Author: c(
     person(given = "Ran",
@@ -31,8 +31,19 @@ LazyData: False
 Encoding: UTF-8
 Depends: R (>= 4.2)
 RoxygenNote: 7.2.3
+VignetteBuilder: knitr
+Imports: 
+    utils,
+    ExperimentHub
+Suggests: 
+    knitr,
+    rmarkdown,
+    ExperimentHubData,
+    testthat (>= 3.0.0)
 biocViews: 
+    ExperimentHub,
     ExperimentData,
     ReproducibleResearch,
     DiseaseModel,
     CancerData
+BugReports: https://github.com/jasminezhoulab/cfToolsData/issues

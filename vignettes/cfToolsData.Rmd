@@ -1,0 +1,57 @@
+---
+title: "cfToolsData package"
+output:
+  rmarkdown::html_document
+vignette: |
+  %\VignetteIndexEntry{cfToolsData package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+The *cfToolsData* package provides two pre-trained deep neural network (DNN) 
+models for the *cfSort* function.
+
+```{r}
+library(cfToolsData)
+models <- c(DNN1(), DNN2())
+names(models) <- c("DNN1", "DNN2")
+models
+```
+
+It also provides the shape parameters of beta distribution characterizing 
+methylation markers associated with four cancer types for the *CancerDetector* 
+function.
+
+```{r}
+tumorMarkerParams <- c(
+  COAD.tumorMarkerParams.hg19(),
+  LIHC.tumorMarkerParams.hg19(),
+  LUNG.tumorMarkerParams.hg19(),
+  STAD.tumorMarkerParams.hg19()
+)
+names(tumorMarkerParams) <- c(
+    "COAD.tumorMarkerParams",
+    "LIHC.tumorMarkerParams",
+    "LUNG.tumorMarkerParams",
+    "STAD.tumorMarkerParams"
+)
+tumorMarkerParams
+```
+
+Additionally, it includes the shape parameters of beta distribution 
+characterizing methylation markers specific to 29 primary human tissue types 
+for the *cfDeconvolve* function.
+
+```{r}
+tissueMarkerParams <- tissueMarkerParams.hg19()
+tissueMarkerParams
+
+tissueMarkerAnnot <- tissueMarkerParams.annot()
+tissueMarkerAnnot
+```
+
+# Session information
+
+```{r}
+sessionInfo()
+```
