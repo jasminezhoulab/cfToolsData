@@ -97,14 +97,14 @@ metadata <- data.frame(
     DispatchClass = rep("FilePath", 8),
     Location_Prefix = rep("https://zenodo.org/", 8),
     RDataPath = c(
-        "record/8326428/files/COAD.tumorMarkerParams.hg19.txt.gz",
-        "record/8326428/files/LIHC.tumorMarkerParams.hg19.txt.gz",
-        "record/8326428/files/LUNG.tumorMarkerParams.hg19.txt.gz",
-        "record/8326428/files/STAD.tumorMarkerParams.hg19.txt.gz",
-        "record/8326428/files/tissueMarkerParams.hg19.txt.gz",
-        "record/8326428/files/tissueMarkerParams.annot.txt.gz",
-        "record/7884243/files/DNN1.h5",
-        "record/7884243/files/DNN2.h5"
+        "cfToolsData/COAD.tumorMarkerParams.hg19.txt.gz",
+        "cfToolsData/LIHC.tumorMarkerParams.hg19.txt.gz",
+        "cfToolsData/LUNG.tumorMarkerParams.hg19.txt.gz",
+        "cfToolsData/STAD.tumorMarkerParams.hg19.txt.gz",
+        "cfToolsData/tissueMarkerParams.hg19.txt.gz",
+        "cfToolsData/tissueMarkerParams.annot.txt.gz",
+        "cfToolsData/DNN1.h5",
+        "cfToolsData/DNN2.h5"
     ),
     Tags = c(
       rep("cfToolsData", 8)
