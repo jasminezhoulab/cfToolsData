@@ -112,3 +112,4 @@ metadata <- data.frame(
 )
 
 write.csv(metadata, file="inst/extdata/metadata.csv", row.names=FALSE)
+

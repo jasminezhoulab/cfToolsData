@@ -1,7 +1,7 @@
 Package: cfToolsData
 Title: ExperimentHub data for the cfTools package
 Version: 0.99.0
-Author: c(
+Authors@R: c(
     person(given = "Ran",
         family = "Hu",
         role = c("aut", "cre"),
@@ -18,7 +18,6 @@ Author: c(
         role = "aut",
         email = "WenyuanLi@mednet.ucla.edu",
         comment = c(ORCID = "0000-0002-5029-8525")))
-Maintainer: Ran Hu <huran@ucla.edu>
 Description: The cfToolsData package supplies the data for the cfTools package. 
     It contains two pre-trained deep neural network (DNN) models for the cfSort 
     function. Additionally, it includes the shape parameters of beta 
@@ -29,7 +28,7 @@ Description: The cfToolsData package supplies the data for the cfTools package.
 License: file LICENSE
 LazyData: False
 Encoding: UTF-8
-Depends: R (>= 4.2)
+Depends: R (>= 4.3.0)
 RoxygenNote: 7.2.3
 VignetteBuilder: knitr
 Imports: 
@@ -45,5 +44,7 @@ biocViews:
     ExperimentData,
     ReproducibleResearch,
     DiseaseModel,
-    CancerData
+    CancerData,
+    Tissue
+URL: https://github.com/jasminezhoulab/cfToolsData
 BugReports: https://github.com/jasminezhoulab/cfToolsData/issues
