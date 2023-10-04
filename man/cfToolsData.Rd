@@ -9,15 +9,15 @@ Downloads and caches `.txt.gz` or HDF5-formatted `.h5` files.
 }
 \description{
 The cfToolsData package supplies data for the cfTools package. It contains 
- two pre-trained deep neural network (DNN) models for the cfSort function. 
- Additionally, it includes the shape parameters of beta distribution 
- characterizing methylation markers associated with four cancer types and 
- 29 primary human tissue types as example files for the CancerDetector 
- and the cfDeconvolve function.
- 
- For more information, see
- https://doi.org/10.1038/s41467-022-32995-6 and 
- https://doi.org/10.1073/pnas.2305236120.
+two pre-trained deep neural network (DNN) models for the cfSort function. 
+Additionally, it includes the shape parameters of beta distribution 
+characterizing methylation markers associated with four cancer types and 
+29 primary human tissue types as example files for the CancerDetector 
+and the cfDeconvolve function.
+
+For more information, see
+https://doi.org/10.1038/s41467-022-32995-6 and 
+https://doi.org/10.1073/pnas.2305236120.
 }
 \author{
 Ran Hu

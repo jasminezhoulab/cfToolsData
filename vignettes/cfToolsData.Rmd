@@ -24,10 +24,10 @@ function.
 
 ```{r}
 tumorMarkerParams <- c(
-  COAD.tumorMarkerParams.hg19(),
-  LIHC.tumorMarkerParams.hg19(),
-  LUNG.tumorMarkerParams.hg19(),
-  STAD.tumorMarkerParams.hg19()
+    COAD.tumorMarkerParams.hg19(),
+    LIHC.tumorMarkerParams.hg19(),
+    LUNG.tumorMarkerParams.hg19(),
+    STAD.tumorMarkerParams.hg19()
 )
 names(tumorMarkerParams) <- c(
     "COAD.tumorMarkerParams",
