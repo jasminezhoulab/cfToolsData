@@ -1,28 +1,60 @@
 ---
 title: "cfToolsData package"
-output:
-  rmarkdown::html_document
+author: 
+  - name: Ran Hu
+    affiliation:
+      - Department of Pathology and Laboratory Medicine, David Geffen School of 
+      Medicine, University of California at Los Angeles
+      - Institute for Quantitative and Computational Biosciences, University of 
+      California at Los Angeles
+      - Bioinformatics Interdepartmental Graduate Program, University of 
+      California at Los Angeles
+    email: huran@ucla.edu
+  - name: Shuo Li
+    affiliation:
+      - Department of Pathology and Laboratory Medicine, David Geffen School of 
+      Medicine, University of California at Los Angeles
+  - name: Xianghong Jasmine Zhou
+    affiliation:
+      - Department of Pathology and Laboratory Medicine, David Geffen School of 
+      Medicine, University of California at Los Angeles
+      - Institute for Quantitative and Computational Biosciences, University of 
+      California at Los Angeles
+  - name: Wenyuan Li
+    affiliation:
+      - Department of Pathology and Laboratory Medicine, David Geffen School of 
+      Medicine, University of California at Los Angeles
+package: cfToolsData
+output: 
+  BiocStyle::html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    highlight: zenburn
+  BiocStyle::pdf_document: default
 vignette: |
-  %\VignetteIndexEntry{cfToolsData package}
+  %\VignetteIndexEntry{cfToolsData}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-The *cfToolsData* package provides two pre-trained deep neural network (DNN) 
-models for the *cfSort* function.
+The `r Biocpkg("cfToolsData")` package provides two pre-trained deep neural 
+network (DNN) models for the *cfSort()* function in `r Biocpkg("cfTools")`.
 
-```{r}
+```{r, message=FALSE}
 library(cfToolsData)
 models <- c(DNN1(), DNN2())
 names(models) <- c("DNN1", "DNN2")
 models
 ```
 
-It also provides the shape parameters of beta distribution characterizing 
-methylation markers associated with four cancer types for the *CancerDetector* 
-function.
+Users can locate the data file at the specified output file path.
 
-```{r}
+It also provides the shape parameters of beta distribution characterizing 
+methylation markers associated with four cancer types for the 
+*CancerDetector()* function in `r Biocpkg("cfTools")`.
+
+```{r, message=FALSE}
 tumorMarkerParams <- c(
     COAD.tumorMarkerParams.hg19(),
     LIHC.tumorMarkerParams.hg19(),
@@ -40,9 +72,10 @@ tumorMarkerParams
 
 Additionally, it includes the shape parameters of beta distribution 
 characterizing methylation markers specific to 29 primary human tissue types 
-for the *cfDeconvolve* function.
+for the *cfDeconvolve()* function in `r Biocpkg("cfTools")`, as well as the 
+annotations of these markers.
 
-```{r}
+```{r, message=FALSE}
 tissueMarkerParams <- tissueMarkerParams.hg19()
 tissueMarkerParams
 
@@ -50,7 +83,7 @@ tissueMarkerAnnot <- tissueMarkerParams.annot()
 tissueMarkerAnnot
 ```
 
-# Session information
+# Session information {-}
 
 ```{r}
 sessionInfo()

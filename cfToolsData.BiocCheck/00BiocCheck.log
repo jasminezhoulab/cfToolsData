@@ -1,0 +1,46 @@
+* Checking for deprecated package usage... OK
+* Checking for remote package usage... OK
+* Checking for 'LazyData: true' usage... OK
+* Checking version number... OK
+* Checking version number validity... OK
+* Checking R version dependency... OK
+* Checking package size... OK
+* Checking individual file sizes... OK
+* Checking biocViews... OK
+* Checking that biocViews are present... OK
+* Checking package type based on biocViews... OK
+* Checking for non-trivial biocViews... OK
+* Checking that biocViews come from the same category... OK
+* Checking biocViews validity... OK
+* Checking for recommended biocViews... OK
+* Checking build system compatibility... OK
+* Checking for blank lines in DESCRIPTION... OK
+* Checking if DESCRIPTION is well formatted... OK
+* Checking for proper Description: field... OK
+* Checking for whitespace in DESCRIPTION field names... OK
+* Checking that Package field matches directory/tarball name... OK
+* Checking for Version field... OK
+* Checking for valid maintainer... OK
+* Checking License: for restrictive use...
+* NOTE: License 'file LICENSE' unknown; licenses cannot restrict use
+* Checking for recommeded fields in DESCRIPTION... OK
+* Checking for pinned package versions... OK
+* Checking DESCRIPTION/NAMESPACE consistency... OK
+* Checking .Rbuildignore... OK
+* Checking for stray BiocCheck output folders... OK
+* Checking for inst/doc folders... OK
+* Checking vignette directory... OK
+* Checking package installation calls in R code... OK
+* Checking for library/require of cfToolsData... OK
+* Checking coding practice... OK
+* Checking parsed R code in R directory, examples, vignettes... OK
+* Checking function lengths... OK
+* Checking man page documentation... OK
+* Checking package NEWS... OK
+* Checking unit tests... OK
+* Checking skip_on_bioc() in tests... OK
+* Checking formatting of DESCRIPTION, NAMESPACE, man pages, R source, and vignette source... OK
+* Checking if package already exists in CRAN... OK
+* Checking for bioc-devel mailing list subscription...
+* NOTE: Cannot determine whether maintainer is subscribed to the Bioc-Devel mailing list (requires admin credentials). Subscribe here: https://stat.ethz.ch/mailman/listinfo/bioc-devel
+* Checking for support site registration... OK
