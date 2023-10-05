@@ -3,27 +3,20 @@ title: "cfToolsData package"
 author: 
   - name: Ran Hu
     affiliation:
-      - Department of Pathology and Laboratory Medicine, David Geffen School of 
-      Medicine, University of California at Los Angeles
-      - Institute for Quantitative and Computational Biosciences, University of 
-      California at Los Angeles
-      - Bioinformatics Interdepartmental Graduate Program, University of 
-      California at Los Angeles
+      - Department of Pathology and Laboratory Medicine, UCLA
+      - Institute for Quantitative and Computational Biosciences, UCLA
+      - Bioinformatics Interdepartmental Graduate Program, UCLA
     email: huran@ucla.edu
   - name: Shuo Li
     affiliation:
-      - Department of Pathology and Laboratory Medicine, David Geffen School of 
-      Medicine, University of California at Los Angeles
+      - Department of Pathology and Laboratory Medicine, UCLA
   - name: Xianghong Jasmine Zhou
     affiliation:
-      - Department of Pathology and Laboratory Medicine, David Geffen School of 
-      Medicine, University of California at Los Angeles
-      - Institute for Quantitative and Computational Biosciences, University of 
-      California at Los Angeles
+      - Department of Pathology and Laboratory Medicine, UCLA
+      - Institute for Quantitative and Computational Biosciences, UCLA
   - name: Wenyuan Li
     affiliation:
-      - Department of Pathology and Laboratory Medicine, David Geffen School of 
-      Medicine, University of California at Los Angeles
+      - Department of Pathology and Laboratory Medicine, UCLA
 package: cfToolsData
 output: 
   BiocStyle::html_document:
