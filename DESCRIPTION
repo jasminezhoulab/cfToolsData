@@ -1,6 +1,6 @@
 Package: cfToolsData
 Title: ExperimentHub data for the cfTools package
-Version: 0.99.3
+Version: 0.99.4
 Authors@R: c(
     person(given = "Ran",
         family = "Hu",
@@ -35,6 +35,7 @@ Imports:
     utils,
     ExperimentHub
 Suggests: 
+    BiocStyle,
     knitr,
     rmarkdown,
     ExperimentHubData,
